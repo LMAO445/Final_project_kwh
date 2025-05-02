@@ -12,23 +12,34 @@ const questions = [
   {
     question: "What genre is *The Conjuring*?",
     options: ["Comedy", "Horror", "Drama"],
-    answer: 2
+    answer: 1
   },
   {
-    question: "Which movie features the character 'Tony Stark'?",
-    options: ["The Matrix", "Iron Man", "Avatar"],
-    answer: 2
+    question: "The Homelander was a good guy in the boys?",
+    options: ["Yes", "No", "Anti"],
+    answer: 1
   },
   {
     question: "Which movie does Christopher Nolan said the movie wasn't suppose to understand?",
     options: ["Inception", "Tenet", "Shutter Island"],
-    answer: 2
+    answer: 1
   },
   {
     question: "Which tv shows that Henry Cavil nailed a role as a game charachter?",
     options: ["Man of steel", "The Witcher", "Mission Impossible : Fall Out"],
+    answer: 1
+  },
+  {
+    question: "Who is the main character in Mickey-17 movie?",
+    options: ["Jackson Rathbone", "Taylor Lautner", "Robert Pattinson"],
     answer: 2
   },
+  {
+    question: "Charlie Cox said he does not like how marvel direct the MCU movie. Do you think Charlie Cox did most of the stunt in Daredevil?",
+    options: ["Yes", "No",],
+    answer: 0
+  },
+
 ];
 
 function loadQuiz() {

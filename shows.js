@@ -3,81 +3,92 @@ const shows = [
     title: "Terminal List",
     image: "image/6.webp",
     link: "https://www.primevideo.com/dp/amzn1.dv.gti.a6302f52-d658-4623-92fb-8e78a4904632",
-    platform: "Prime"
+    platform: "Thriller"
   },
   {
     title: "The Boys",
     image: "image/The boys.jpg",
     link: "https://www.primevideo.com/detail/0KRGHGZCHKS920ZQGY5LBRF7MA",
-    platform: "Prime"
+    platform: "Thriller"
   },
   {
     title: "Mind Hunter",
     image: "image/8.jpg",
     link: "https://www.netflix.com/mm/title/80114855",
-    platform: "Netflix"
+    platform: "Thriller"
   },
   {
     title: "True Detective",
     image: "image/9.jpg",
-    platform: "Other"
+    link: "https://tv.apple.com/sg/episode/good-news-about-hell/umc.cmc.s80mx1ic96pu6ewupz8pfasf",
+    platform: "Drama"
   },
   {
     title: "Jack Ryan",
     image: "image/10.jfif",
     link: "https://www.primevideo.com/dp/amzn1.dv.gti.921df68c-71a7-4f4a-a35d-804ac6245208",
-    platform: "Prime"
+    platform: "Action"
   },
   {
     title: "DARK",
     image: "image/DARK.jpg",
     link: "https://www.netflix.com/sg/title/80100172",
-    platform: "Netflix"
+    platform: "Sci-fi"
   },
   {
     title: "FROM",
     image: "image/FROM.jpg",
     link: "https://www.primevideo.com/detail/FROM/0QUD5ZQUTN60OAXR13829P3219",
-    platform: "Prime"
+    platform: "Horror"
   },
   {
     title: "Severance",
     image: "image/Severance.jfif",
-    platform: "Other"
+    link: "https://tv.apple.com/sg/episode/good-news-about-hell/umc.cmc.s80mx1ic96pu6ewupz8pfasf",
+    platform: "Sci-fi"
   },
   {
     title: "Supernatural",
     image: "image/SPN.jpg",
     link: "https://www.primevideo.com/dp/amzn1.dv.gti.20bb1813-379c-fc88-ed82-3755f16be7d2",
-    platform: "Prime"
+    platform: "Sci-fi"
   },
   {
     title: "Midnight Mass",
     image: "image/Midnight Mass.jpg",
     link: "https://www.netflix.com/mm/title/81083626",
-    platform: "Netflix"
+    platform: "Horror"
   },
   {
     title: "Loki",
     image: "image/Loki.png",
-    platform: "Other"
+    link: "https://www.disneyplus.com/en-sg/browse/entity-8f8c5cbb-e5ba-4285-9e2c-86abcac9fd50",
+    platform: "Sci-fi"
   },
   {
     title: "Sandman",
     image: "image/sandman.avif",
     link: "https://www.netflix.com/mm/title/81150303",
-    platform: "Netflix"
+    platform: "Sci-fi"
   },
   {
     title: "Outer Range",
     image: "image/Outer Range.jpg",
-    platform: "Other"
+    link: "https://www.primevideo.com/detail/0MXZP4ODBZSOP24GEX7IY9ZWJM/ref=atv_dp_season_select_s1",
+    platform: "Horror"
   },
   {
     title: "The Watcher",
     image: "image/The Watcher.jpg",
-    platform: "Other"
-  }
+    link: "https://www.netflix.com/mm/title/81380441?source=35",
+    platform: "Horror"
+  },
+  {
+    title: "Daredevil-Born Again",
+    image: "image/Daredevil_Born_Again.webp",
+    link: "https://www.disneyplus.com/en-sg/browse/entity-85e7a914-c8e6-41db-95df-c740dc2cf1b7",
+    platform: "Thriller"
+  },
 ];
 
 function markAsWatched(title, type = 'show', event) {

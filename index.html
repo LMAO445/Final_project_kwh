@@ -206,10 +206,10 @@
       const user = localStorage.getItem("loggedInUser");
 
       if (user) {
-         // Show logout button if user is logged in
+         
          authContainer.innerHTML = `<button onclick="logout()" class="nav-btn">Logout</button>`;
       } else {
-         // Show login button if no one is logged in
+         
          authContainer.innerHTML = `<a href="login.html"><button class="nav-btn">Login</button></a>`;
       }
 
@@ -218,12 +218,10 @@
          alert("You have been logged out.");
          window.location.href = "index.html";
       }
-
-      // Redirect unauthenticated users from protected links
       document.querySelectorAll(".protected-link").forEach(link => {
          link.addEventListener("click", function (e) {
             if (!user) {
-               e.preventDefault(); // Cancel the click
+               e.preventDefault(); 
                alert("Please log in to access this page.");
                window.location.href = "index.html";
             }

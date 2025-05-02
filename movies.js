@@ -164,7 +164,6 @@ function renderMovies(filterText = "", platform = "") {
         wrapper.appendChild(image);
       }
 
-      // Add the "Mark as Watched" button
       const watchButton = document.createElement("button");
       watchButton.className = "watch-button";
 

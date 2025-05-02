@@ -120,7 +120,7 @@ function markAsWatched(title, type = 'show', event) {
 
 function renderShows(filterText = "", platform = "") {
   const container = document.getElementById("show-container");
-  container.innerHTML = ""; // Clear current content
+  container.innerHTML = ""; 
 
   const username = localStorage.getItem("loggedInUser");
   const userHistoryKey = `history_${username}`;
@@ -156,7 +156,6 @@ function renderShows(filterText = "", platform = "") {
         wrapper.appendChild(image);
       }
 
-      // Add the "Mark as Watched" button
       const watchButton = document.createElement("button");
       watchButton.className = "watch-button";
 

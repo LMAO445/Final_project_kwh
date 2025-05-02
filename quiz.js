@@ -44,7 +44,7 @@ const questions = [
 
 function loadQuiz() {
   const container = document.getElementById("quiz-container");
-  container.innerHTML = ""; // Clear previous content
+  container.innerHTML = ""; 
 
   questions.forEach((q, i) => {
     const div = document.createElement("div");
@@ -94,7 +94,7 @@ window.onload = () => {
     submitButton.style.display = "none";
   } else {
     loadQuiz();
-    submitButton.style.display = "inline"; // Show the submit button if the quiz is unlocked
+    submitButton.style.display = "inline"; 
   }
 
   submitButton.addEventListener("click", submitQuiz);

@@ -6,7 +6,6 @@ body {
   padding: 0;
 }
 
-/* Add centering only for the centered class */
 .centered {
   display: flex;
   justify-content: center;
@@ -117,8 +116,6 @@ a:hover {
 p {
   margin-top: 20px;
 }
-
-/* ===== Movie & Show Container ===== */
 #movie-container,
 #show-container {
   display: flex;
@@ -128,8 +125,6 @@ p {
   gap: 20px;
   background-color: #ffffff;
 }
-
-/* ===== Individual Card Style ===== */
 .card {
   background-color: #1f1f1f;
   border-radius: 10px;
@@ -156,8 +151,6 @@ p {
   color: white;
   margin: 0;
 }
-
-/* ===== Search & Filter Bar ===== */
 .search-bar {
   text-align: center;
   margin: 30px 0 10px;
@@ -180,7 +173,7 @@ p {
 }
 
 .recent-item {
-  margin: 10px auto; /* Top & bottom: 10px, Left & right: auto (centers it) */
+  margin: 10px auto; 
   padding: 10px;
   width: 80%;
   background-color: #f4f4f4;
@@ -192,7 +185,6 @@ p {
   color: black;
 }
 
-/* Style the 'Mark as Watched' button */
 .watch-button {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
